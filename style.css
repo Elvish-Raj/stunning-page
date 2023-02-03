@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+body{
+    /* margin: 0; */
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+header nav ul li{
+    display: inline;
+    padding: 20px 10px;
+}
+.common-btn{
+    background-color: #FFD8DB;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+header img{
+    width: 100px;
+}
+header nav ul li a{
+    border border-bottom: 4px solid blue;
+    padding-bottom: 4px;
+}
+header nav ul li a:hover,
+header nav ul li a .active{
+    border-bottom: 4px solid blue;
+    color: #8071d0;
+}
+main{
+    display: flex;
+}
